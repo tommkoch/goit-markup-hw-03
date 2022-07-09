@@ -1,3 +1,42 @@
+body {
+  background-color: var(--background-color);
+  color: var(--text-color-black);
+  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0%;
+  padding: 0%;
+}
+ul,
+ol {
+  margin: 0%;
+  padding: 0%;
+}
+p {
+  padding: 0%;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1600px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+
 :root {
   --main-background-color: #ffffff;
   --text-color-black: #212121;
@@ -30,12 +69,6 @@
 .footer-phone:focus,
 .nav-buttons:focus {
   color: red;
-}
-
-.body {
-  background-color: var(--background-color);
-  color: var(--text-color-black);
-  font-family: "Roboto", sans-serif;
 }
 
 /* LOGO */
