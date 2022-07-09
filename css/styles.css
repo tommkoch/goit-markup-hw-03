@@ -1,0 +1,263 @@
+:root {
+  --main-background-color: #ffffff;
+  --text-color-black: #212121;
+  --text-color-white: #ffffff;
+  --gray-color: #757575;
+  --gray-backgound-color: #2f303a;
+  --buttons-color: #2196f3;
+  --background-color2: #f5f4fa;
+}
+.nav-agency:hover,
+.nav-portfolio:hover,
+.nav-contact:hover,
+.header-contact:hover,
+.header-mail:hover,
+.header-phone:hover,
+.localization:hover,
+.footer-mail:hover,
+.footer-phone:hover,
+.nav-buttons:hover {
+  color: var(--buttons-color);
+}
+.nav-agency:focus,
+.nav-portfolio:focus,
+.nav-contact:focus,
+.header-contact:focus,
+.header-mail:focus,
+.header-phone:focus,
+.localization:focus,
+.footer-mail:focus,
+.footer-phone:focus,
+.nav-buttons:focus {
+  color: red;
+}
+
+.body {
+  background-color: var(--background-color);
+  color: var(--text-color-black);
+  font-family: "Roboto", sans-serif;
+}
+
+/* LOGO */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--buttons-color);
+  text-decoration: none;
+}
+
+.logo-span {
+  color: var(--text-color-black);
+}
+
+/* NAVIGATION */
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.nav-list {
+  list-style: none;
+  color: var(--text-color-black);
+}
+.nav-agency {
+  text-decoration: none;
+  color: var(--text-color-black);
+}
+
+.nav-portfolio {
+  text-decoration: none;
+  color: var(--text-color-black);
+}
+.nav-contact {
+  text-decoration: none;
+  color: var(--text-color-black);
+}
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.header-mail {
+  text-decoration: none;
+  color: var(--gray-color);
+}
+.header-phone {
+  text-decoration: none;
+  color: var(--gray-color);
+}
+
+/* ARTICLE "EFEKTYWNE ROZWIAZANIA" */
+
+.article {
+  background-color: var(--gray-backgound-color);
+}
+.h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--text-color-white);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button-order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--text-color-white);
+  background-color: var(--buttons-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 121px;
+  height: 38px;
+  background-color: var(--background-color2);
+  border: none;
+  cursor: pointer;
+}
+
+/* SECTION 1 "LOREM" */
+
+.section1-list {
+  list-style: none;
+}
+.section1-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color-black);
+}
+.section1-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+
+/* SECTION 2 "CZYM SIĘ ZAJMUJEMY" */
+
+.section2-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.section2-images {
+  list-style: none;
+}
+
+/* SECTION 3 "NASZ ZESPÓŁ" */
+.section3 {
+  background-color: var(--background-color2);
+}
+
+.section3-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section3-images {
+  list-style: none;
+}
+.section3-signature-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color-black);
+}
+.section3-signature-name2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--gray-backgound-color);
+}
+.logo2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-span2 {
+  color: var(--text-color-white);
+}
+.adress-list {
+  list-style: none;
+}
+.localization {
+  text-decoration: none;
+  color: var(--text-color-white);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.footer-mail {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+.footer-phone {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+
+.nav-projects {
+  list-style: none;
+}
+.project-photos {
+  list-style: none;
+}
